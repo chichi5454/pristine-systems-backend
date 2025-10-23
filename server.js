@@ -18,8 +18,11 @@ app.use(helmet());
 const allowedOrigins = [
   'http://localhost:3000',
   'https://pristine-systems-and-solutions.vercel.app',
-  'https://www.pristine-systems-and-solutions.vercel.app'
+  'https://www.pristine-systems-and-solutions.vercel.app',
+  'https://www.pristinesystems.co.ke',
+  'https://pristinesystems.co.ke'
 ];
+
 
 app.use(cors({
   origin: function (origin, callback) {
